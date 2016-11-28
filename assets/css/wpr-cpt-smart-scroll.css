@@ -1,0 +1,35 @@
+.wpr-post-slide,
+.wpr-post-slide-image {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.wpr-post-slide {
+    margin-top: 30px;
+}
+
+.wpr-post-slide-number {
+    text-align: right;
+}
+
+.wpr-post-slide-content {
+    padding-bottom: 2px;
+    position: relative;
+}
+
+.wpr-post-slide .wpr-post-slide-content:after {
+    background: linear-gradient(to right, rgba(221, 221, 221, 0), #dddddd, rgba(221, 221, 221, 0));
+    border: 0;
+    bottom: 0;
+    content: '';
+    height: 1px;
+    left: 0;
+    position: absolute;
+    right: 0;
+}
+
+.wpr-post-slide-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
