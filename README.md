@@ -1,0 +1,1 @@
+CPT-smart-slider-scroll
